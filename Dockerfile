@@ -12,7 +12,6 @@ RUN pip install --no-cache-dir dnslib aiohttp flask
 
 # Make port 5000 available to the world outside this container
 EXPOSE 5000
-# Expose DNS port 53
 EXPOSE 5300/udp
 
 # Run app.py when the container launches
